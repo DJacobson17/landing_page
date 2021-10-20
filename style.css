@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .description, footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.header img {
+    max-width: 250px;
+}
+
+.header .links {
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
